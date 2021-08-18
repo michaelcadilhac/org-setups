@@ -1,0 +1,37 @@
+#+OPTIONS: author:nil toc:nil
+
+#+begin_src emacs-lisp :results output silent :exports results
+  (add-to-list 'org-latex-classes
+               '("lipics-like"
+                 "\\documentclass[letterpaper,11pt,english]{lipics-like}
+
+  \\usepackage{indentfirst,afterpage}
+  \\usepackage[utf8]{inputenc}
+  \\usepackage[T1]{fontenc}
+  \\usepackage{amsmath}
+  \\usepackage{amssymb}
+  \\usepackage{microtype}
+  \\usepackage{fixme,datetime}
+  \\usepackage{stmaryrd}
+  \\usepackage{cleveref}
+  \\usepackage{mathtools}
+  \\usepackage[letterpaper,margin=1in,top=2.9cm,bottom=2.3cm]{geometry}
+  \\author{Michaël Cadilhac}
+  {DePaul University, Chicago, IL, USA}
+  {michael.cadilhac@depaul.edu} % Email
+  {https://orcid.org/0000-0001-9828-9129} % ORCID
+  {}
+       [NO-DEFAULT-PACKAGES]
+       [PACKAGES]
+       [EXTRA]"
+
+                 ("\\section{%s}" . "\\section*{%s}")
+                 ("\\subsection{%s}" . "\\subsection*{%s}") 
+                 ;("\\subsubsection{%s}" . "\\subsubsection*{%s}") 
+                 ;("\\paragraph{%s}" . "\\paragraph*{%s}") 
+                 ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+#+end_src
+
+#+MACRO: doi \footnotesize doi: ~$1~\normalsize
+
+#+EXPORT: org-latex-export-to-latex

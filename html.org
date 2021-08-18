@@ -1,0 +1,66 @@
+* Sticky headers                                                     :ignore:
+
+#+HTML_HEAD: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+#+HTML_HEAD:  <style>  
+#+HTML_HEAD:   h2 { position:sticky; top:0em; z-index: 100; margin: 0 }
+#+HTML_HEAD:   h3 { position:sticky; top:0em; z-index: 50;  border-bottom: 1px solid #CCC; padding-top: 40px; margin-top: -40px;}
+#+HTML_HEAD:   h4 { padding-top: 4.2em; margin-top: -4.2em;}
+#+HTML_HEAD:   #table-of-contents h2 { position: relative; background: unset; }
+#+HTML_HEAD:   #content { padding: 20px; background: #FFF; overflow: unset; }
+#               This is for D2L to respect fixed, sticky:
+#+HTML_HEAD:   body { overflow-y: unset !important; }
+#+HTML_HEAD:   #fader { position: fixed; top: 0; right: 0; width: 100%; height: 4.2em; z-index: 25}
+#+HTML_HEAD:  </style>
+
+@@html:<div id="fader"></div>@@
+
+#+begin_export html
+<script>
+  $(function() {
+      $(window).scroll(function(){
+          var el = null;
+          var nth = 0;
+          var elnth = -1;
+          var mindist = 99999; 
+          $('h2').each (function () {
+              if ($(this).parent().prop('nodeName') == 'NAV') // Skip the h2 of toc
+                  return
+              nth++;
+              var dist = $(this).offset ().top - $(document).scrollTop () + $(this).height ();
+              if (dist >= 0 && dist < mindist) {
+                  if (el !== null)
+                    el.css ({background: "unset"})
+                  el = $(this)
+                  mindist = dist
+                  elnth = nth
+              }
+              else {
+                 $(this).css ({background: "unset"})
+              }
+          });
+          if (el === null)
+              return
+          var h3siblings = el.parent ().find ("h3");
+          if (h3siblings.length) {
+                var v = $(h3siblings[0]).offset ().top - $(document).scrollTop () - 10
+                if (v < 0) v = 0
+                if (v > 20) v = 20
+                v = 2.6 - (v - 20) / 20 * 1.7
+                $('#fader').height (v + "em")
+          }
+          else
+                $('#fader').height ("2.6em")
+          percent = 100 * (mindist - el.height () - $('#fader').height() / 2) / el.height ();
+          if (percent > 100) percent = 100
+          if (percent < 0) percent = 0
+          col = percent * 0.56 + 200
+          if (mindist <= el.height ())
+              el.css ({background: `rgba(${col}, ${col}, ${col}, ${1-percent/100})`})
+          else
+             el.css ({background: "unset"})
+          // $(this).css({background: `rgb(${col}, ${col}, ${col})`})
+          $('#fader').css ({background: `rgba(${col}, ${col}, ${col}, ${1-percent/100})`})
+      });
+  });
+</script>
+#+end_export

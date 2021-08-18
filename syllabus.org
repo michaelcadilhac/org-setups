@@ -1,0 +1,22 @@
+#+OPTIONS: author:nil 
+#+OPTIONS: h:5 num:3
+
+#+EXPORT: org-latex-export-to-latex
+
+
+#+begin_src emacs-lisp :results output silent :exports results
+  (add-to-list 'org-latex-classes
+               `("syllabus"
+                 ,(with-temp-buffer
+                    (insert-file-contents "~/org/setups/syllabus-header.tex")
+                    (buffer-string))
+                 ("\\section{%s}" . "\\section*{%s}")
+                 ("\\subsection{%s}" . "\\subsection*{%s}") 
+                 ("\\paragraph{%s.}" . "\\paragraph*{%s.}") 
+                 ("\\subparagraph{%s.}" . "\\subparagraph*{%s.}")))
+#+end_src
+
+#+MACRO: doi \footnotesize doi: ~$1~\normalsize
+#+MACRO: amp @@latex:&@@
+#+MACRO: res @@latex:\res{}@@
+#+MACRO: small \footnotesize $1\normalsize

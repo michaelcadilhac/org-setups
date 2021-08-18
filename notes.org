@@ -1,0 +1,32 @@
+# Turn off default internal styles
+#+OPTIONS: html-style:nil html5-fancy:t
+
+#+EXPORT: org-html-export-to-html
+
+# Exporting to HTML5
+#+HTML_DOCTYPE: html5
+#+HTML_HEAD: <meta http-equiv="X-UA-Compatible" content="IE=edge">
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
+
+# Add notes.css here
+#+HTML_HEAD: <link href="https://michael.cadilhac.name/css/notes.css" rel="stylesheet" type="text/css" />
+#+HTML_HEAD: <style>
+#+HTML_HEAD:   #table-of-contents { width: 42%; padding: 0em; padding-left: 1em;}
+#+HTML_HEAD:   body { background: #DDD; }
+#+HTML_HEAD:   table.center { margin: auto; display: table; }
+#+HTML_HEAD:   table.noheader th {font-weight: normal;}
+#+HTML_HEAD:   table.explicithrules td, table.explicithrules th { border-bottom: none; border-top: none; }
+#+HTML_HEAD:   table.explicithrules thead, table.explicithrules tbody { border: 1px solid #CCC; }
+#+HTML_HEAD:   .box { background-color: #EEE; padding: 10px 10px 5px 10px; display: table; width: fit-content; }
+#+HTML_HEAD:   .box-title { border-bottom: 1px solid #CCC; }
+#+HTML_HEAD:   .box-contents { padding-top: 15px; }
+#+HTML_HEAD:   .box p { display: inline; }
+#+HTML_HEAD:   .box ol { margin-top: 0px; }
+#+HTML_HEAD: </style>
+
+#+MACRO: box @@html:<div class="box" style="$1"><div class="box-title" style="$2">@@
+#+MACRO: box-contents @@html:</div><div class="box-contents" style="$1">@@
+#+MACRO: endbox @@html: </div></div>@@
+
+#+MACRO: doi \footnotesize doi: ~$1~\normalsize
+#+MACRO: small @@html:<span style="font-size: 80%">@@$1@@html:</span>@@
