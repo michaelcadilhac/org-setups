@@ -9,7 +9,7 @@
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1">
 
 # Add notes.css here
-#+HTML_HEAD: <link href="https://michael.cadilhac.name/css/notes.css" rel="stylesheet" type="text/css" />
+#+HTML_HEAD: <link href="./notes.css" rel="stylesheet" type="text/css" />
 #+HTML_HEAD: <style>
 #+HTML_HEAD:   #table-of-contents { width: 42%; padding: 0em; padding-left: 1em;}
 #+HTML_HEAD:   body { background: #DDD; }

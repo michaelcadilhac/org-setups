@@ -1,0 +1,449 @@
+.org-bold { font-weight: bold; }
+.org-bold-italic { font-weight: bold; font-style: italic; }
+.org-builtin { color: #b0c4de; }
+.org-c-annotation { color: #7fffd4; }
+.org-c-nonbreakable-space { color: #222222; background-color: #ffffff; }
+.org-comint-highlight-input { font-weight: bold; }
+.org-comint-highlight-prompt { color: #00ffff; }
+.org-comment { color: #ff7f24; }
+.org-comment-delimiter { color: #ff7f24; }
+.org-compilation-column-number { color: #ffa07a; }
+.org-compilation-error { color: #ffc0cb; font-weight: bold; }
+.org-compilation-info { color: #00ff00; font-weight: bold; }
+.org-compilation-line-number { color: #00ffff; }
+.org-compilation-mode-line-exit { color: #228b22; font-weight: bold; }
+.org-compilation-mode-line-fail { color: #ff0000; font-weight: bold; }
+.org-compilation-mode-line-run { color: #ff8c00; font-weight: bold; }
+.org-compilation-warning { color: #ff8c00; font-weight: bold; }
+.org-completions-annotations { font-style: italic; }
+.org-completions-common-part { color: #add8e6; }
+.org-completions-first-difference { font-weight: bold; }
+.org-constant { color: #7fffd4; }
+.org-css-property { color: #00ffff; }
+.org-css-selector { color: #87cefa; }
+.org-cursor { background-color: #ffffff; }
+.org-diary { color: #ffff00; }
+.org-diff-added { background-color: #335533; }
+.org-diff-changed {}
+.org-diff-context {}
+.org-diff-file-header { background-color: #999999; font-weight: bold; }
+.org-diff-function { background-color: #737373; }
+.org-diff-header { background-color: #737373; }
+.org-diff-hunk-header { background-color: #737373; }
+.org-diff-index { background-color: #999999; font-weight: bold; }
+.org-diff-indicator-added { color: #22aa22; background-color: #335533; }
+.org-diff-indicator-changed { color: #aaaa22; }
+.org-diff-indicator-removed { color: #aa2222; background-color: #553333; }
+.org-diff-nonexistent { background-color: #999999; font-weight: bold; }
+.org-diff-refine-added { background-color: #22aa22; }
+.org-diff-refine-changed { background-color: #aaaa22; }
+.org-diff-refine-removed { background-color: #aa2222; }
+.org-diff-removed { background-color: #553333; }
+.org-doc { color: #ffa07a; }
+.org-edebug-disabled-breakpoint { background-color: #335533; }
+.org-edebug-enabled-breakpoint { background-color: #000000; }
+.org-eldoc-highlight-function-argument { font-weight: bold; }
+.org-epa-field-body { color: #40e0d0; font-style: italic; }
+.org-epa-field-name { color: #afeeee; font-weight: bold; }
+.org-epa-mark { color: #ffa500; font-weight: bold; }
+.org-epa-string { color: #ffffe0; }
+.org-epa-validity-disabled { font-style: italic; }
+.org-epa-validity-high { color: #afeeee; font-weight: bold; }
+.org-epa-validity-low { font-style: italic; }
+.org-epa-validity-medium { color: #afeeee; font-style: italic; }
+.org-error { color: #ffc0cb; font-weight: bold; }
+.org-escape-glyph { color: #00ffff; }
+.org-ess-XopX { color: #7fffd4; }
+.org-ess-assignment { color: #7fffd4; }
+.org-ess-bp-fringe-browser { color: #00bfff; }
+.org-ess-bp-fringe-inactive { color: #d3d3d3; }
+.org-ess-bp-fringe-logger { color: #ff6347; }
+.org-ess-bp-fringe-recover { color: #ff00ff; }
+.org-ess-constant { color: #98fb98; }
+.org-ess-debug-blink-ref-not-found { background-color: #8b0000; }
+.org-ess-debug-blink-same-ref { background-color: #191970; }
+.org-ess-debug-current-debug-line { background-color: #000000; }
+.org-ess-function-call { color: #87cefa; }
+.org-ess-keyword { color: #00ffff; }
+.org-ess-matrix { color: #7fffd4; }
+.org-ess-modifiers { color: #7fffd4; }
+.org-ess-numbers { color: #98fb98; }
+.org-ess-operator { color: #7fffd4; }
+.org-ess-paren { color: #7fffd4; }
+.org-ess-r-control-flow-keyword { color: #00ffff; }
+.org-ess-tracebug-last-input-fringe { color: #00bfff; text-decoration: overline; }
+.org-ess-watch-current-block { background-color: #000000; }
+.org-ffap { background-color: #000000; }
+.org-file-name-shadow { color: #b3b3b3; }
+.org-fill-column-indicator { color: #b3b3b3; }
+.org-fixed-pitch {}
+.org-fixed-pitch-serif {}
+.org-flymake-error { text-decoration: underline; }
+.org-flymake-note { text-decoration: underline; }
+.org-flymake-warning { text-decoration: underline; }
+.org-flyspell-duplicate { text-decoration: underline; }
+.org-flyspell-incorrect { background-color: #b22222; text-decoration: underline; }
+.org-font-latex-bold { color: #6b8e23; font-weight: bold; }
+.org-font-latex-doctex-documentation { background-color: #333; }
+.org-font-latex-italic { color: #6b8e23; font-style: italic; }
+.org-font-latex-math { color: #deb887; }
+.org-font-latex-script-char { color: #8b0000; }
+.org-font-latex-sectioning-0 { color: #ffff00; font-size: 161%; font-weight: bold; }
+.org-font-latex-sectioning-1 { color: #ffff00; font-size: 146%; font-weight: bold; }
+.org-font-latex-sectioning-2 { color: #ffff00; font-size: 133%; font-weight: bold; }
+.org-font-latex-sectioning-3 { color: #ffff00; font-size: 121%; font-weight: bold; }
+.org-font-latex-sectioning-4 { color: #ffff00; font-size: 110%; font-weight: bold; }
+.org-font-latex-sectioning-5 { color: #ffff00; font-weight: bold; }
+.org-font-latex-sedate { color: #d3d3d3; }
+.org-font-latex-string { color: #ffa07a; }
+.org-font-latex-subscript { font-size: 85%; }
+.org-font-latex-superscript { font-size: 85%; }
+.org-font-latex-verbatim { color: #deb887; }
+.org-font-latex-warning { color: #ff0000; font-weight: bold; }
+.org-fringe { background-color: #1a1a1a; }
+.org-function-name { color: #87cefa; }
+.org-glyphless-char { font-size: 60%; }
+.org-header-line { color: #e5e5e5; background-color: #333333; }
+.org-header-line-highlight { background-color: #000000; }
+.org-help-argument-name { font-style: italic; }
+.org-hide-ifdef-shadow { color: #b3b3b3; }
+.org-highlight { background-color: #000000; }
+.org-highlight-indent-guides-character { color: #622162216221; }
+.org-highlight-indent-guides-even { background-color: #488848884888; }
+.org-highlight-indent-guides-odd { background-color: #488848884888; }
+.org-highlight-indent-guides-stack-character { color: #555555555555; }
+.org-highlight-indent-guides-stack-even { background-color: #555555555555; }
+.org-highlight-indent-guides-stack-odd { background-color: #488848884888; }
+.org-highlight-indent-guides-top-character { color: #b22222; font-weight: bold; }
+.org-highlight-indent-guides-top-even { background-color: #6eee6eee6eee; }
+.org-highlight-indent-guides-top-odd { background-color: #622162216221; }
+.org-hl-line { background-color: #000000; }
+.org-holiday { background-color: #8b4513; }
+.org-homoglyph { color: #00ffff; }
+.org-ibuffer-locked-buffer { color: #bc8f8f; }
+.org-info-header-node { color: #ffffff; font-weight: bold; font-style: italic; }
+.org-info-header-xref { color: #00ffff; text-decoration: underline; }
+.org-info-index-match { background-color: #3a5fcd; }
+.org-info-menu-header { font-weight: bold; }
+.org-info-menu-star { color: #ff0000; }
+.org-info-node { color: #ffffff; font-weight: bold; font-style: italic; }
+.org-info-quoted {}
+.org-info-title-1 { font-size: 172%; font-weight: bold; }
+.org-info-title-2 { font-size: 144%; font-weight: bold; }
+.org-info-title-3 { font-size: 120%; font-weight: bold; }
+.org-info-title-4 { font-weight: bold; }
+.org-info-xref { color: #00ffff; text-decoration: underline; }
+.org-internal-border {}
+.org-isearch { color: #8b2323; background-color: #ee799f; }
+.org-isearch-fail { background-color: #8b0000; }
+.org-italic { font-style: italic; }
+.org-keyword { color: #00ffff; }
+.org-lazy-highlight { background-color: #668b8b; }
+.org-line-number-current-line { color: #b3b3b3; background-color: #222222; }
+.org-line-number-major-tick { background-color: #bfbfbf; font-weight: bold; }
+.org-line-number-minor-tick { background-color: #8c8c8c; font-weight: bold; }
+.org-link { color: #00ffff; text-decoration: underline; }
+.org-link-visited { color: #ee82ee; text-decoration: underline; }
+.org-makefile-makepp-perl { background-color: #00008b; }
+.org-makefile-shell {}
+.org-makefile-space { background-color: #ff69b4; }
+.org-makefile-targets { color: #87cefa; }
+.org-markdown-blockquote { color: #ffa07a; }
+.org-markdown-bold { font-weight: bold; }
+.org-markdown-code {}
+.org-markdown-comment { color: #ff7f24; }
+.org-markdown-footnote-marker { color: #b3b3b3; }
+.org-markdown-footnote-text { color: #ff7f24; }
+.org-markdown-gfm-checkbox { color: #b0c4de; }
+.org-markdown-header-delimiter { color: #b3b3b3; }
+.org-markdown-header-face-1 { color: #87cefa; font-weight: bold; }
+.org-markdown-header-face-2 { color: #87cefa; font-weight: bold; }
+.org-markdown-header-face-3 { color: #87cefa; font-weight: bold; }
+.org-markdown-header-face-4 { color: #87cefa; font-weight: bold; }
+.org-markdown-header-face-5 { color: #87cefa; font-weight: bold; }
+.org-markdown-header-face-6 { color: #87cefa; font-weight: bold; }
+.org-markdown-header-rule { color: #b3b3b3; }
+.org-markdown-highlight { background-color: #000000; }
+.org-markdown-hr { color: #b3b3b3; }
+.org-markdown-html-attr-name { color: #eedd82; }
+.org-markdown-html-attr-value { color: #ffa07a; }
+.org-markdown-html-entity { color: #eedd82; }
+.org-markdown-html-tag-delimiter { color: #b3b3b3; }
+.org-markdown-html-tag-name { color: #98fb98; }
+.org-markdown-italic { font-style: italic; }
+.org-markdown-language-info { color: #ffa07a; }
+.org-markdown-language-keyword { color: #98fb98; }
+.org-markdown-line-break { color: #7fffd4; text-decoration: underline; }
+.org-markdown-link { color: #00ffff; text-decoration: underline; }
+.org-markdown-link-title { color: #ff7f24; }
+.org-markdown-list { color: #b3b3b3; }
+.org-markdown-markup { color: #b3b3b3; }
+.org-markdown-math { color: #ffa07a; }
+.org-markdown-metadata-key { color: #eedd82; }
+.org-markdown-metadata-value { color: #ffa07a; }
+.org-markdown-missing-link { color: #ffc0cb; font-weight: bold; }
+.org-markdown-plain-url { color: #00ffff; text-decoration: underline; }
+.org-markdown-reference { color: #b3b3b3; }
+.org-markdown-strike-through { text-decoration: line-through; }
+.org-markdown-url { color: #ffa07a; }
+.org-match { background-color: #3a5fcd; }
+.org-menu {}
+.org-message-cited-text-1 { color: #ffaeb9; }
+.org-message-cited-text-2 { color: #228b22; }
+.org-message-cited-text-3 { color: #cd9b1d; }
+.org-message-cited-text-4 { color: #cd661d; }
+.org-message-header-cc { color: #7fff00; font-weight: bold; }
+.org-message-header-name { color: #00ff00; }
+.org-message-header-newsgroups { color: #ffff00; font-weight: bold; font-style: italic; }
+.org-message-header-other { color: #ff3e96; }
+.org-message-header-subject { color: #c0ff3e; }
+.org-message-header-to { color: #caff70; font-weight: bold; }
+.org-message-header-xheader { color: #00bfff; }
+.org-message-mml { color: #00fa9a; }
+.org-message-separator { color: #b0e2ff; }
+.org-minibuffer-prompt { color: #00ffff; }
+.org-mm-command-output { color: #228b22; }
+.org-mode-line { color: #ffffff; background-color: #000000; }
+.org-mode-line-buffer-id { font-weight: bold; }
+.org-mode-line-emphasis { font-weight: bold; }
+.org-mode-line-highlight {}
+.org-mode-line-inactive { color: #cccccc; background-color: #4d4d4d; }
+.org-mouse {}
+.org-mouse-drag-and-drop-region { background-color: #0000cd; }
+.org-negation-char {}
+.org-next-error { background-color: #0000cd; }
+.org-nobreak-hyphen { color: #00ffff; }
+.org-nobreak-space { color: #00ffff; }
+.org-nxml-attribute-colon {}
+.org-nxml-attribute-local-name { color: #eedd82; }
+.org-nxml-attribute-prefix { color: #b0c4de; }
+.org-nxml-attribute-value { color: #ffa07a; }
+.org-nxml-attribute-value-delimiter { color: #ffa07a; }
+.org-nxml-cdata-section-cdata { color: #b0c4de; }
+.org-nxml-cdata-section-content {}
+.org-nxml-cdata-section-delimiter {}
+.org-nxml-char-ref-delimiter { color: #7fffd4; }
+.org-nxml-char-ref-number { color: #7fffd4; }
+.org-nxml-delimited-data { color: #ffa07a; }
+.org-nxml-delimiter {}
+.org-nxml-element-colon {}
+.org-nxml-element-local-name { color: #87cefa; }
+.org-nxml-element-prefix { color: #b0c4de; }
+.org-nxml-entity-ref-delimiter { color: #7fffd4; }
+.org-nxml-entity-ref-name { color: #7fffd4; }
+.org-nxml-glyph { color: #000000; background-color: #d3d3d3; }
+.org-nxml-hash { color: #b0c4de; }
+.org-nxml-heading { font-weight: bold; }
+.org-nxml-markup-declaration-delimiter {}
+.org-nxml-name { color: #b0c4de; }
+.org-nxml-namespace-attribute-colon {}
+.org-nxml-namespace-attribute-prefix { color: #eedd82; }
+.org-nxml-namespace-attribute-xmlns { color: #b0c4de; }
+.org-nxml-outline-active-indicator {}
+.org-nxml-outline-ellipsis { font-weight: bold; }
+.org-nxml-outline-indicator {}
+.org-nxml-processing-instruction-content { color: #ffa07a; }
+.org-nxml-processing-instruction-delimiter {}
+.org-nxml-processing-instruction-target { color: #00ffff; }
+.org-nxml-prolog-keyword { color: #00ffff; }
+.org-nxml-prolog-literal-content { color: #ffa07a; }
+.org-nxml-prolog-literal-delimiter { color: #ffa07a; }
+.org-nxml-ref { color: #7fffd4; }
+.org-nxml-tag-delimiter {}
+.org-nxml-tag-slash {}
+.org-nxml-text {}
+.org-org-agenda-calendar-event { color: #ffffff; background-color: #222222; }
+.org-org-agenda-calendar-sexp { color: #ffffff; background-color: #222222; }
+.org-org-agenda-clocking { background-color: #4a708b; }
+.org-org-agenda-column-dateline { background-color: #4d4d4d; }
+.org-org-agenda-current-time { color: #eedd82; }
+.org-org-agenda-date { color: #87cefa; }
+.org-org-agenda-date-today { color: #87cefa; font-weight: bold; font-style: italic; }
+.org-org-agenda-date-weekend { color: #87cefa; font-weight: bold; }
+.org-org-agenda-diary { color: #ffffff; background-color: #222222; }
+.org-org-agenda-dimmed-todo { color: #7f7f7f; }
+.org-org-agenda-done { color: #98fb98; }
+.org-org-agenda-filter-category { color: #ffffff; background-color: #000000; }
+.org-org-agenda-filter-effort { color: #ffffff; background-color: #000000; }
+.org-org-agenda-filter-regexp { color: #ffffff; background-color: #000000; }
+.org-org-agenda-filter-tags { color: #ffffff; background-color: #000000; }
+.org-org-agenda-restriction-lock { background-color: #1C1C1C; }
+.org-org-agenda-structure { color: #87cefa; }
+.org-org-archived { color: #b3b3b3; }
+.org-org-block { color: #b3b3b3; }
+.org-org-block-begin-line { color: #ff7f24; }
+.org-org-block-end-line { color: #ff7f24; }
+.org-org-checkbox { font-weight: bold; }
+.org-org-checkbox-statistics-done { color: #98fb98; font-weight: bold; }
+.org-org-checkbox-statistics-todo { color: #ffc0cb; font-weight: bold; }
+.org-org-clock-overlay { color: #ffffff; background-color: #4a708b; }
+.org-org-code { color: #b3b3b3; }
+.org-org-column { background-color: #4d4d4d; }
+.org-org-column-title { background-color: #4d4d4d; font-weight: bold; text-decoration: underline; }
+.org-org-date { color: #00ffff; text-decoration: underline; }
+.org-org-date-selected { color: #ffc0cb; }
+.org-org-default { color: #ffffff; background-color: #222222; }
+.org-org-document-info { color: #afeeee; }
+.org-org-document-info-keyword { color: #b3b3b3; }
+.org-org-document-title { color: #afeeee; font-weight: bold; }
+.org-org-done { color: #98fb98; font-weight: bold; }
+.org-org-drawer { color: #87cefa; font-size: 60%; }
+.org-org-ellipsis { color: #eedd82; text-decoration: underline; }
+.org-org-footnote { color: #00ffff; text-decoration: underline; }
+.org-org-formula { color: #ff7f24; }
+.org-org-habit-alert { background-color: #ffd700; }
+.org-org-habit-alert-future { background-color: #b8860b; }
+.org-org-habit-clear { background-color: #0000ff; }
+.org-org-habit-clear-future { background-color: #191970; }
+.org-org-habit-overdue { background-color: #b22222; }
+.org-org-habit-overdue-future { background-color: #8b0000; }
+.org-org-habit-ready { background-color: #228b22; }
+.org-org-habit-ready-future { background-color: #006400; }
+.org-org-headline-done { color: #ffa07a; }
+.org-org-hide { color: #222222; }
+.org-org-indent { color: #222222; }
+.org-org-latex-and-related { color: #deb887; }
+.org-org-level-1 { color: #87cefa; }
+.org-org-level-2 { color: #eedd82; }
+.org-org-level-3 { color: #00ffff; }
+.org-org-level-4 { color: #ff7f24; }
+.org-org-level-5 { color: #98fb98; }
+.org-org-level-6 { color: #7fffd4; }
+.org-org-level-7 { color: #b0c4de; }
+.org-org-level-8 { color: #ffa07a; }
+.org-org-link { color: #00ffff; text-decoration: underline; }
+.org-org-list-dt { font-weight: bold; }
+.org-org-macro { color: #deb887; }
+.org-org-meta-line { color: #ff7f24; }
+.org-org-mode-line-clock { color: #000000; background-color: #00ffff; font-weight: bold; }
+.org-org-mode-line-clock-overrun { color: #ffffff; background-color: #ff0000; }
+.org-org-priority { color: #00ffff; }
+.org-org-property-value {}
+.org-org-quote { color: #b3b3b3; }
+.org-org-scheduled { color: #98fb98; }
+.org-org-scheduled-previously { color: #ff7f24; }
+.org-org-scheduled-today { color: #98fb98; }
+.org-org-sexp-date { color: #00ffff; }
+.org-org-special-keyword { color: #00ffff; }
+.org-org-table { color: #87cefa; }
+.org-org-tag { font-weight: bold; }
+.org-org-tag-group { font-weight: bold; }
+.org-org-target { text-decoration: underline; }
+.org-org-time-grid { color: #eedd82; }
+.org-org-todo { color: #ffc0cb; font-weight: bold; }
+.org-org-upcoming-deadline { color: #ff7f24; }
+.org-org-upcoming-distant-deadline { color: #ffffff; background-color: #222222; }
+.org-org-verbatim { color: #b3b3b3; }
+.org-org-verse { color: #b3b3b3; }
+.org-org-warning { color: #ffc0cb; font-weight: bold; }
+.org-outline-1 { color: #87cefa; }
+.org-outline-2 { color: #eedd82; }
+.org-outline-3 { color: #00ffff; }
+.org-outline-4 { color: #ff7f24; }
+.org-outline-5 { color: #98fb98; }
+.org-outline-6 { color: #7fffd4; }
+.org-outline-7 { color: #b0c4de; }
+.org-outline-8 { color: #ffa07a; }
+.org-package-description { color: #ffffff; background-color: #222222; }
+.org-package-name { color: #00ffff; text-decoration: underline; }
+.org-package-status-avail-obso { color: #ffc0cb; font-weight: bold; }
+.org-package-status-available { color: #ffffff; background-color: #222222; }
+.org-package-status-built-in { color: #b0c4de; }
+.org-package-status-dependency { color: #ff7f24; }
+.org-package-status-disabled { color: #ffc0cb; font-weight: bold; }
+.org-package-status-external { color: #b0c4de; }
+.org-package-status-held { color: #7fffd4; }
+.org-package-status-incompat { color: #ffc0cb; font-weight: bold; }
+.org-package-status-installed { color: #ff7f24; }
+.org-package-status-unsigned { color: #ffc0cb; font-weight: bold; }
+.org-popup { color: #000000; background-color: #d3d3d3; }
+.org-popup-isearch-match { color: #ffffff; background-color: #87ceeb; }
+.org-popup-menu { color: #000000; background-color: #d3d3d3; }
+.org-popup-menu-mouse { color: #ffffff; background-color: #0000ff; }
+.org-popup-menu-selection { color: #ffffff; background-color: #4682b4; }
+.org-popup-menu-summary { color: #696969; background-color: #d3d3d3; }
+.org-popup-scroll-bar-background { background-color: #bebebe; }
+.org-popup-scroll-bar-foreground { background-color: #000000; }
+.org-popup-summary { color: #696969; background-color: #d3d3d3; }
+.org-popup-tip { color: #000000; background-color: #fff68f; }
+.org-preprocessor { color: #b0c4de; }
+.org-query-replace { color: #8b2323; background-color: #ee799f; }
+.org-read-multiple-choice { font-weight: bold; text-decoration: underline; }
+.org-regexp-grouping-backslash { font-weight: bold; }
+.org-regexp-grouping-construct { font-weight: bold; }
+.org-region { background-color: #0000cd; }
+.org-rmail-header-name { color: #87cefa; }
+.org-rmail-highlight { background-color: #000000; }
+.org-rng-error { color: #ffc0cb; font-weight: bold; }
+.org-scroll-bar {}
+.org-secondary-selection { background-color: #4a708b; }
+.org-semantic-highlight-edits { background-color: #333333; }
+.org-semantic-highlight-func-current-tag { background-color: #333333; }
+.org-semantic-idle-symbol-highlight { background-color: #0000cd; }
+.org-semantic-unmatched-syntax { text-decoration: underline; }
+.org-sgml-namespace { color: #b0c4de; }
+.org-sh-escaped-newline { color: #ffa07a; }
+.org-sh-heredoc { color: #ffff00; font-weight: bold; }
+.org-sh-quoted-exec { color: #fa8072; }
+.org-shadow { color: #b3b3b3; }
+.org-show-paren-match { background-color: #4f94cd; }
+.org-show-paren-match-expression { background-color: #4f94cd; }
+.org-show-paren-mismatch { color: #ffffff; background-color: #a020f0; }
+.org-shr-abbreviation { text-decoration: underline; }
+.org-shr-link { color: #00ffff; text-decoration: underline; }
+.org-shr-selected-link { color: #00ffff; background-color: #ff0000; text-decoration: underline; }
+.org-shr-strike-through { text-decoration: line-through; }
+.org-speedbar-button { color: #00cd00; }
+.org-speedbar-directory { color: #add8e6; }
+.org-speedbar-file { color: #00ffff; }
+.org-speedbar-highlight { background-color: #2e8b57; }
+.org-speedbar-selected { color: #ff0000; text-decoration: underline; }
+.org-speedbar-separator { color: #ffffff; background-color: #0000ff; text-decoration: overline; }
+.org-speedbar-tag { color: #ffff00; }
+.org-string { color: #ffa07a; }
+.org-subscript {}
+.org-success { color: #00ff00; font-weight: bold; }
+.org-superscript {}
+.org-tab-bar { color: #aaaaaa; background-color: #444444; }
+.org-tab-bar-tab { color: #ffffff; background-color: #535d6c; }
+.org-tab-bar-tab-inactive { color: #aaaaaa; background-color: #444444; }
+.org-tab-line { color: #aaaaaa; background-color: #444444; font-size: 90%; }
+.org-tab-line-close-highlight { color: #ff0000; }
+.org-tab-line-highlight { color: #ffffff; background-color: #545d6c; font-size: 90%; }
+.org-tab-line-tab {}
+.org-tab-line-tab-current {}
+.org-tab-line-tab-inactive { color: #aaaaaa; background-color: #444444; font-size: 90%; }
+.org-table-cell { color: #e5e5e5; background-color: #0000ff; }
+.org-tabulated-list-fake-header { font-weight: bold; text-decoration: underline; text-decoration: overline; }
+.org-tex-error-description-error { color: #ffc0cb; font-weight: bold; }
+.org-tex-error-description-help { color: #87cefa; }
+.org-tex-error-description-tex-said { color: #87cefa; }
+.org-tex-error-description-warning { color: #ff8c00; font-weight: bold; }
+.org-tex-math { color: #ffa07a; }
+.org-tool-bar { color: #000000; background-color: #bfbfbf; }
+.org-tooltip { color: #000000; background-color: #ffffe0; }
+.org-trailing-whitespace { background-color: #ff0000; }
+.org-tty-menu-disabled { color: #d3d3d3; background-color: #0000ff; }
+.org-tty-menu-enabled { color: #ffff00; background-color: #0000ff; font-weight: bold; }
+.org-tty-menu-selected { background-color: #ff0000; }
+.org-twelf-font-fvar { color: #20b2aa; background-color: #333333; }
+.org-type { color: #98fb98; }
+.org-underline { text-decoration: underline; }
+.org-variable-name { color: #eedd82; }
+.org-warning { color: #ff8c00; font-weight: bold; }
+.org-warning-1 { color: #ffc0cb; font-weight: bold; }
+.org-widget-button { font-weight: bold; }
+.org-widget-button-pressed { color: #ff0000; }
+.org-widget-documentation { color: #32cd32; }
+.org-widget-field { background-color: #696969; }
+.org-widget-inactive { color: #b3b3b3; }
+.org-widget-single-line-field { background-color: #696969; }
+.org-window-divider { color: #999999; }
+.org-window-divider-first-pixel { color: #cccccc; }
+.org-window-divider-last-pixel { color: #666666; }
+.org-xref-file-header { color: #00ff00; font-weight: bold; }
+.org-xref-line-number { color: #00ffff; }
+.org-xref-match { background-color: #000000; }
+
+.src {background-color: #222222 !important; color: white !important;}
+.src code {background-color: #222222 !important; color: white !important;}
