@@ -1,3 +1,9 @@
+* Code                                                               :ignore:
+
+#+HTML_HEAD: <link href="./code.css" rel="stylesheet" type="text/css" />
+#+HTML_HEAD: <link href="./prism.css" rel="stylesheet" />
+#+HTML_HEAD: <script src="./prism.js"></script>
+
 * Sticky headers                                                     :ignore:
 
 #+HTML_HEAD: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
