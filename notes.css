@@ -417,6 +417,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #222;
 }
 
+h3 {
+  pointer-events: none;
+}
+
 h4, .outline-text-4, .outline-text-4 > :first-child {
     display: inline;
 }
