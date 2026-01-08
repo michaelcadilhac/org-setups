@@ -21,6 +21,9 @@
   {michael.cadilhac@depaul.edu} % Email
   {https://orcid.org/0000-0001-9828-9129} % ORCID
   {}
+  \\makeatletter
+  \\let\\c@author\\relax
+  \\makeatother
        [NO-DEFAULT-PACKAGES]
        [PACKAGES]
        [EXTRA]"
